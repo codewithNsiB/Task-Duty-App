@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;500&display=swap");
+* {
+  font-family: "Signika Negative", sans-serif;
+  font-weight: 500;
+  text-decoration: none !important;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgba(250, 249, 251, 1);
+}
+
+.layout-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.coverpageLayout {
+  width: 1440px;
+  height: 760px;
+}
+
+/* .nav-div {
+  width: 1082.56px;
+} */
+
+.nav-layout {
+  width: 1440px;
+  height: 93px;
+  border: 0.5px;
+}
+.div-layout {
+  margin: 0 auto;
+  width: 954px;
+  height: 396.2px;
+
+  border-radius: 8px;
+}
+
+.text-divlayout {
+  width: 535px;
+  height: 369px;
+
+  border-radius: 8px;
+}
+
+.img-divLayout {
+  width: 418.56px;
+  height: 396.2px;
+}
+.purple-color {
+  color: rgba(151, 79, 208, 1);
+}
+
+.myTask-Layout {
+  width: 1440px;
+  height: 1776px;
+}
+
+.mytask-div {
+  width: 900px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.inputRegBox {
+  width: 300px;
+}
+
+.inputReg {
+  height: 45px;
+  padding-left: 10px;
+}
+
+.newtask-div {
+  width: 1440px;
+  height: 1144px;
+  margin: 0 auto !important;
+}
+
+.formBox{
+width: 56rem;
+font-size: 1.2rem;
+}
+.tags-icon{
+  position: absolute;
+  left: 90%;
+  bottom:18%;
+}
+.taskposition, .tags-position{
+  position: absolute;
+  bottom: 50%;
+  left:5%;
+}
+
+.desc-position{
+position: absolute;
+left: 5%;
+  bottom:78%;
+}
+
+input[type="text"]::placeholder, textarea::placeholder {     
+ font-size: 1rem;  
+ 
+}  
+
+.nav-link-div{
+  width: 200px;
+  padding-left: 40px;
+}
+
+.InputGroup-Text {
+  width: 1100px;
+height: 102px; 
+   top: 286px;
+left: 170px;
+border: 1px; 
+  color: #b8b6b6;
+}
+
+
+
+@media (min-width: 768px) {
+  .divbox {
+    width: 380px;
+    height: auto;
+  }
+}
